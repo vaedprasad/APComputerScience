@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Triangle()
+comment1.params=side
+comment1.target=Triangle(double)
+comment2.params=
+comment2.target=double\ getSide()
+comment3.params=
+comment3.target=double\ getPerimeter()
+comment3.text={\n\ \ \ \ if\ ("equilateral".equals(type))\n\ \ \ \ return\ 3\ *\ side;\n\ \ \ \ else\ if\ ("right".equals(type))\n\ \ \ \ return\ (2\ +\ Math.sqrt(2.0))\ *\ side;\n\ \ \ \ else\n\ \ \ \ throw\ new\ IllegalArgumentException("Invalid\ triangle\ type");\n}
+comment4.params=
+comment4.target=double\ getArea()
+comment4.text=\ {\n\ \ \ \ if\ ("equilateral".equals(type))\n\ \ \ \ return\ Math.sqrt(3)\ /\ 4\ *\ side\ *\ side;\n\ \ \ \ else\ if\ ("right".equals(type))\n\ \ \ \ return\ side\ *\ side\ /\ 2;\n\ \ \ \ else\n\ \ \ \ throw\ new\ IllegalArgumentException("Invalid\ triangle\ type");\n}
+comment5.params=
+comment5.target=double\ getRatio()
+numComments=6

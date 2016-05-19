@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=nm1\ nm2\ nm3
+comment0.target=PollDisplayPanel(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=void\ vote1()
+comment2.params=
+comment2.target=void\ vote2()
+comment3.params=
+comment3.target=void\ vote3()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=g
+comment5.target=void\ paintComponent(java.awt.Graphics)
+comment6.params=g\ x\ y\ r
+comment6.target=void\ drawPieChart(java.awt.Graphics,\ int,\ int,\ int)
+comment7.params=g\ x\ y\ r
+comment7.target=void\ drawLegend(java.awt.Graphics,\ int,\ int,\ int)
+comment8.params=count\ total
+comment8.target=int\ countToDegrees(int,\ int)
+comment9.params=g\ x\ y\ r\ fromDegree\ degrees
+comment9.target=void\ drawSector(java.awt.Graphics,\ int,\ int,\ int,\ int,\ int)
+numComments=10

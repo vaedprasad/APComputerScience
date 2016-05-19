@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=board
+comment0.target=ChompGame(BoardPanel)
+comment1.params=row\ col
+comment1.target=boolean\ isEmpty(int,\ int)
+comment1.text=\n\ Returns\ true\ if\ row,\ col\ is\ out\ of\ bounds\ or\ the\ character\n\ at\ row,\ col\ is\ a\ space,\ false\ otherwise.\n
+comment2.params=
+comment2.target=boolean\ isWon()
+comment2.text=\n\ Returns\ true\ if\ the\ location\ on\ the\ board\ is\ a\ win\n\ for\ the\ player\ whose\ turn\ is\ to\ move\n
+comment3.params=row\ col
+comment3.target=void\ makeMove(int,\ int)
+comment3.text=\n\ Adjusts\ and\ repaints\ the\ board\ after\ the\ move\ at\ row,\ col\n
+numComments=4

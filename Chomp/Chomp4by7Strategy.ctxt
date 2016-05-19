@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=game
+comment0.target=Location\ findBestMove(ChompGame)
+comment1.params=game
+comment1.target=Location\ findRandomMove(ChompGame)
+numComments=2

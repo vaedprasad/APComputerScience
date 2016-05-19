@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=displ
+comment0.target=CrapsTable(DisplayPanel)
+comment1.params=
+comment1.target=void\ rollDice()
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=boolean\ diceAreRolling()
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+numComments=5

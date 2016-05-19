@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bmi()
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=lbs\ inches
+comment2.target=double\ calculateBmi(int,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

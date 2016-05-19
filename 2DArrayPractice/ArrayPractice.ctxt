@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=double\ positiveMax(double[][])
+comment0.text=\n\ \n\ Write\ a\ method\ that\ returns\ the\ value\ of\ the\ largest\ positive\ element\ in\ a\ 2-D\ array,\n\ or\ 0\ if\ all\ its\ elements\ are\ negative\:\n\ //\ Returns\ the\ value\ of\ the\ largest\ positive\ element\ in\n\ //the\ 2-D\ array\ m,\ or\ 0,\ if\ all\ its\ elements\ are\ negative\n\ \n\ private\ static\ double\ positiveMax(double[][]\ m)\n\ \n
+comment1.params=board
+comment1.target=void\ fillCheckerboard(java.lang.String[][])
+comment1.text=\ \n\ Write\ a\ method\ public\ void\ fillCheckerboard(Color[][]\ board)\n\ that\ fills\ board\ with\ alternating\ black\ and\ white\ colors\ in\ a\ checkerboard\ pattern.\ \n\ Google\ checkerboard\ if\ you\ cannot\ recall\ what\ one\ looks\ like.\ \n\ Test\ your\ method\ by\ printing\ out\ the\ array,\ showing\ 'x'\ for\ black\ and\ '.'\ for\ white.\ \n\ \n
+numComments=2

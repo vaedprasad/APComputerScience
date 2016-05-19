@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=int\ gcf(int,\ int)
+comment0.text=\n\ \n\ Returns\ GCF\ of\ a\ and\ b\n\ Precondition\:\ a\ >\ 0\ ,\ b>0\n\ \n
+numComments=1

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=int\ sumUpTo(int)
+comment0.text=\n\ Returns\ the\ sum\ of\ all\ integers\ from\ 1\ to\ n,\ if\ n\ >\=\ 1,\n\ and\ 0\ otherwise.\n
+comment1.params=n
+comment1.target=long\ factorial(int)
+comment1.text=\n\ Returns\ 1\ *\ 2\ *\ ...\ *\ n,\ if\ n\ >\=\ 1;\ otherwise\ returns\ 1\n
+comment2.params=n
+comment2.target=boolean\ isPrime(int)
+comment2.text=\n\ Returns\ true\ if\ n\ is\ a\ prime;\ otherwise\ returns\ false\n
+comment3.params=bigNum
+comment3.target=boolean\ testGoldbach(int)
+comment3.text=\n\ Tests\ Goldbach\ conjecture\ for\ even\ numbers\n\ up\ to\ bigNum\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=
+comment5.params=
+comment5.target=void\ perfectNumbers()
+comment5.text=\n\ Returns\ 1\ *\ 2\ *\ ...\ *\ n,\ if\ n\ >\=\ 1;\ otherwise\ returns\ 1\n
+comment6.params=
+comment6.target=void\ mersennePrimes()
+comment6.text=\n\ Returns\ 1\ *\ 2\ *\ ...\ *\ n,\ if\ n\ >\=\ 1;\ otherwise\ returns\ 1\n
+numComments=7

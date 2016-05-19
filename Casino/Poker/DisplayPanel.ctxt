@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DisplayPanel()
+comment1.params=result\ point
+comment1.target=void\ update(int,\ int)
+numComments=2

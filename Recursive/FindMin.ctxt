@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=list\ n
+comment0.target=int\ findMin(int[],\ int)
+comment0.text=\n\ \n\ Returns\ the\ smallest\ among\ the\ first\ n\ elements\ of\ list\n\ Precondition\:\ 1\ <\=\ n\ <\=\ list.length\n\ public\ int\ findMin(int[]\ list,\ int\ n)\n\ DO\ NOT\ USE\ ANY\ LOOPS\n\n\ \ \ \ public\ static\ int\ findMin(int[]\ list,\ int\ n)\ {\n\ \ \ \ \ \ \ \ int\ min;\n\ \ \ \ \ \ \ \ if\ (n\ \=\=\ list.length\ -\ 1)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ return\ list[n];\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ min\ \=\ findMin(list,\ n\ +\ 1);\n\ \ \ \ \ \ \ \ if\ (min\ <\ list[n])\ {\n\ \ \ \ \ \ \ \ \ \ \ \ return\ \ min;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ {\n\ \ \ \ \ \ \ \ \ \ \ \ return\ list[n];\n\ \ \ \ \ \ \ \ }\n}
+numComments=1

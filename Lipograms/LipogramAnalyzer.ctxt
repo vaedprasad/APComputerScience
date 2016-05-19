@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=text
+comment0.target=LipogramAnalyzer(java.lang.String)
+comment0.text=\n\ Saves\ the\ text\ string.\ \n
+comment1.params=letter
+comment1.target=java.lang.String\ mark(char)
+comment1.text=\n\ Returns\ the\ saved\ text\ string\ with\n\ all\ characters\ equal\ to\ letter\ replaced\ with\ \u2018\#\u2019.\n
+comment2.params=letter
+comment2.target=java.lang.String\ allWordsWith(char)
+comment2.text=\n\ \n\ Returns\ a\ string\ that\ concatenates\ all\ \u201Coffending\u201D\ words\ from\ text\ that\ contain\n\ letter;\ the\ words\ are\ separated\ by\ \u2018\\n\u2019\ characters;\ the\ returned\ string\ does\ not\n\ contain\ duplicate\ words\:\ each\ word\ occurs\ only\ once;\ there\ are\ no\ punctuation\ \n\ or\ whitespace\ characters\ in\ the\ returned\ string\ other\ than\ \u2018\\n\u2019\ characters.\n\ \n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

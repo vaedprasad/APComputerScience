@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=image\ h
+comment1.target=int\ findVertPosition(int[][],\ int)
+comment2.params=image\ row0\ h\ w
+comment2.target=int\ findHorzPosition(int[][],\ int,\ int,\ int)
+comment2.text=private\ int\ findHorzPosition\ (int[][]\ image,\ int\ row0,\ int\ h,\ int\ w)\ {\n\ \ \ \ \ \ \ \ int[]\ sums\ \=\ new\ int[image[\ 0].length];\n\ \ \ \ \ \ \ \ for\ (int\ col\ \=\ \ 0;\ col\ <\ sums.length;\ col++)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ int\ s\ \=\ \ 0;\n\ \ \ \ \ \ \ \ \ \ \ \ for\ (int\ row\ \=\ row0;\ row\ <\ row0\ +\ h;\ row++)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ s\ +\=\ image[row][col];\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ sums[col]\ \=\ s;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ int\ minSum\ \=\ Integer.MAX_VALUE;\n\ \ \ \ \ \ \ \ int\ minCol\ \=\ -1;\n\ \ \ \ \ \ \ \ for\ (int\ startCol\ \=\ \ 0;\ startCol\ <\ image[\ 0].length\ -\ w;\ startCol\ +\=\ w)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ int\ sum\ \=\ 0;\n\ \ \ \ \ \ \ \ \ \ \ \ for\ (int\ col\ \=\ startCol;\ col\ <\ startCol\ +\ w;\ col++)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ +\=\ sums[col];\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (sum\ <\ minSum)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ minSum\ \=\ sum;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ minCol\ \=\ startCol;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ minCol;\n}
+comment3.params=image\ template\ row\ col
+comment3.target=double\ match(int[][],\ int[][],\ int,\ int)
+comment3.text=\n\ \ \ \ private\ int\ match\ (int\ []\ []\ image,\ int\ []\ []\ template,\ int\ row,\ int\ col)\ {\n\ \ \ \ int\ [][]\ \ imageSubset\ \=\ new\ int[template.length][template[0].length];\n\ \ \ \ //copy\ over\ the\ subset\ of\ image\ (size\ of\ template)\ to\ compare\ with\ template\n\ \ \ \ for\ (int\ r\ \=\ row;\ r\ <\ template.length;\ r++)\ {\n\ \ \ \ for\ (int\ c\ \=\ col;\ c\ <\ template[r].length;\ c++)\ {\n\ \ \ \ imageSubset[r-row][c-col]\ \=\ image[r][c];\n\ \ \ \ }\n\ \ \ \ }\n\n\ \ \ \ int\ totalDiff\ \=\ 0;\n\ \ \ \ for\ (int\ r\ \=\ 0;\ r\ <\ imageSubset.length;\ r++)\ {\n\ \ \ \ for\ (int\ c\ \=\ 0;\ c\ <\ imageSubset[r].length;\ c++)\ {\n\ \ \ \ if\ (imageSubset[r][c]\ \!\=\ 0\ &&\ template[r][c]\ \!\=\ 0)\ {\n\ \ \ \ totalDiff\ +\=\ Math.abs(imageSubset[r][c]\ -\ template[r][c]);\n\ \ \ \ }\n\ \ \ \ }\n\ \ \ \ }\n\n\ \ \ \ return\ totalDiff;\n}
+comment4.params=fileName\ rows\ cols
+comment4.target=int[][]\ loadImage(java.lang.String,\ int,\ int)
+comment5.params=image
+comment5.target=char\ ocr(int[][])
+numComments=6

@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=array
-comment0.target=int\ sumOfOneDimensionalArray(int[])
-comment0.text=\n\ (a)\ Write\ a\ method\ that\ returns\ the\ sum\ of\ all\ the\ elements\ in\ a\ one-dimensional\ array\ of\ integers.\n\ Use\ a\ "for-each"\ loop.\ \n
-comment1.params=array
-comment1.target=int[]\ sumOfTwoDimensionalArray(int[][])
-comment1.text=\n\ Using\ the\ method\ you\ wrote\ in\ Part\ (a),\ write\ and\ test\ a\ method\ that\ takes\ a\ 2-D\ array\ of\ integers\ t\ and\ \n\ returns\ a\ 1-D\ array\ sums,\ such\ that\ sums[k]\ holds\ the\ sum\ of\ all\ the\ elementsi\ n\ the\ k-th\ row\ of\ t.\ \n\ \n\ Do\ not\ use\ any\ arithmetic\ operators.\n
-numComments=2

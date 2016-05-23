@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=s
-comment0.target=boolean\ endsWithStar(java.lang.String)
-comment0.text=\n\ Write\ a\ method\ (in\ BlueJ\ or\ Eclipse)\ that\ returns\ true\ if\ a\ given\n\ string\ is\ not\ empty\ and\ ends\ with\ a\ star\ ('\ *\ '),\ false\ otherwise.\ \n
-comment1.params=s
-comment1.target=boolean\ endsWithTwoStars(java.lang.String)
-comment1.text=\n\ Write\ a\ method\ (in\ BlueJ\ or\ Eclipse)\ that\ returns\ true\ if\ a\ given\ \n\ string\ has\ at\ least\ two\ characters\ and\ ends\ wit\ htwo\ stars,\ false\ otherwise.\ \n
-numComments=2

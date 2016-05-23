@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=fileName
-comment0.target=EasySound(java.lang.String)
-comment0.text=\n\ Constructs\ an\ <code>EasySound</code>\ for\ a\ given\ audio\ file.\n\ @param\ fileName\ the\ name\ or\ pathname\ of\ the\ audio\ clip\ file.\n
-comment1.params=
-comment1.target=void\ play()
-comment1.text=\n\ Plays\ this\ <code>EasySound</code>.\n
-numComments=2

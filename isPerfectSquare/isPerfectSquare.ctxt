@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.params=n
-comment0.target=boolean\ isPerfectSquare(int)
-comment1.params=n
-comment1.target=boolean\ isPerfectSquareAlternateSolution(int)
-comment1.text=\n\ \n\ This\ is\ a\ second\ solution\ that\ uses\ nested\ loops\ without\ using\ the\ formula.\n\ \n\ \n
-numComments=2

@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=total
-comment0.target=int\ processRoll(int)
-comment0.text=\n\ \ Calculates\ the\ result\ of\ the\ next\ dice\ roll\ in\ the\ Craps\ game.\n\ \ The\ parameter\ total\ is\ the\ sum\ of\ dots\ on\ two\ dice.\n\ \ point\ is\ set\ to\ the\ saved\ total,\ if\ the\ game\ continues,\n\ \ or\ 0,\ if\ the\ game\ has\ ended.\n\ \ Returns\ 1\ if\ player\ won,\ -1\ if\ player\ lost,\n\ \ 0\ if\ player\ continues\ rolling.\n
-comment1.params=
-comment1.target=int\ getPoint()
-comment1.text=\n\ \ Returns\ the\ saved\ point\n
-numComments=2

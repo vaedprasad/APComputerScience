@@ -1,0 +1,35 @@
+Class documentation
+<---- javadoc command: ---->
+/Users/prasadva/Desktop/BlueJ.app/Contents/Frameworks/jdk.framework/Versions/A/Contents/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/Users/prasadva/Desktop/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Users/prasadva/Desktop/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Users/prasadva/Google Drive/10th Grade/Computer Science 2/Parameters
+-d
+/Users/prasadva/Google Drive/10th Grade/Computer Science 2/Parameters/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Users/prasadva/Desktop/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/Users/prasadva/Google Drive/10th Grade/Computer Science 2/Parameters/Parameters.java
+<---- end of javadoc command ---->
+Loading source file /Users/prasadva/Google Drive/10th Grade/Computer Science 2/Parameters/Parameters.java...
+/Users/prasadva/Google Drive/10th Grade/Computer Science 2/Parameters/Parameters.java:21: error: ';' expected
+            max=y
+                 ^
+/Users/prasadva/Google Drive/10th Grade/Computer Science 2/Parameters/Parameters.java:28: error: ';' expected
+        double result = (x+y+z)/3.0
+                                   ^
+2 errors
